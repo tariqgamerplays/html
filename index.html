@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>hi</title>
+</head>
+<body>
+<form action="action-page.html" method="post">
+<label for="fname">First name</label>
+<input type="text" id="fname" name="name"><br><br>
+<label for="lname">Last name</label>
+<input type="text" id="lname" name="last"><br><br>
+<input type="submit" value="Submit">
+</form>
+Yor naim iz:<?php echo $_POST["name"]; ?><br>
+Yor eemayl iz :<?php echo $_POST["last"]; ?>
+</body>
+</html>
