@@ -1,0 +1,18 @@
+span.container{
+display: block;
+background:#23cf70;
+color:#000000;
+width:45px;
+left:30;
+width:500px;
+height:30px;
+font-size:25px;
+}
+
+.fa fa-times{
+
+}
+
+.form{
+top:25;
+}
